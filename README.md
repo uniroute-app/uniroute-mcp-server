@@ -1,5 +1,7 @@
 # UniRoute MCP Server
 
+[![UniRoute MCP Server](https://glama.ai/mcp/servers/uniroute-app/uniroute-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/uniroute-app/uniroute-mcp-server)
+
 Zero-dependency [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server for calling **63+ multimodal AI models** (image, video, and music: Seedream 5.0, Seedance, Kling, Veo 3.1, Wan, Nano Banana, Flux 2, Suno, and more) through [UniRoute](https://uniroute.app) from **Claude Code, Claude Desktop, Cursor, or Codex CLI**.
 
 ## 30-Second Setup (Lowest Friction)
