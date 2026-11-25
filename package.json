@@ -1,14 +1,15 @@
 {
   "name": "@uniroute/mcp-server",
-  "version": "0.1.0",
-  "description": "Model Context Protocol (MCP) server for UniRoute unified media APIs (image, video, and music generation via Seedance, Kling, Veo, Wan, Seedream, Qwen Image Edit, and more).",
+  "version": "0.2.0",
+  "description": "Zero-dependency MCP server for UniRoute unified media APIs (Seedream, Seedance, Kling, Veo, Wan, Qwen Image Edit, Suno). Supports one-command setup, automatic quoting, budget safety caps, and one-shot generation.",
   "type": "module",
   "license": "MIT",
   "engines": {
     "node": ">=20"
   },
   "bin": {
-    "uniroute-mcp-server": "src/index.js"
+    "uniroute-mcp-server": "src/index.js",
+    "uniroute-mcp": "src/index.js"
   },
   "files": [
     "src",
@@ -17,7 +18,7 @@
   ],
   "scripts": {
     "start": "node src/index.js",
-    "check": "node --check src/index.js && node --check src/client.js",
+    "check": "node --check src/index.js && node --check src/client.js && node --check src/setup.js",
     "test": "node --test"
   },
   "repository": {
@@ -35,10 +36,12 @@
     "ai-gateway",
     "image-generation",
     "video-generation",
+    "music-generation",
     "seedream",
     "seedance",
     "kling",
+    "veo",
     "wan",
-    "qwen-image-edit"
+    "suno"
   ]
 }
